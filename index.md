@@ -9,5 +9,4 @@ Link will go [here].
 
 ### Support or Contact
 
-bram@sharingfiction.com
-natalie.pistunovich@gmail.com
+bram@sharingfiction.com and natalie.pistunovich@gmail.com
