@@ -9,11 +9,24 @@
     <title>Stenography</title>
     <meta name="description" content="Explain Code with AI." />
 
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/16be84fbe8.js" crossorigin="anonymous"></script>
+
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800" rel="stylesheet">
 
     <!-- Bootstrap CSS / Color Scheme -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        a.button {
+            -webkit-appearance: button;
+            -moz-appearance: button;
+            appearance: button;
+
+            text-decoration: none;
+            color: initial;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,8 +45,7 @@
                             style="text-decoration: underline;">different</span> audiences.</h1>
                     <p class="lead mb-5">Stenography uses AI to decipher code for you. <br /> It's like pair programming, but with a robot. 
                     </p>
-                    <p>Join the Discord:</p>
-                    <iframe src="https://discord.com/widget?id=864311842901852191&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    <a target='_blank' href='https://discord.com/invite/FgMxkfVwxk' class='button' style='font-size:24px; background-color: #738adb; color: white; border-radius: 6px; border-width: 0px; padding: 12px;'>Join the Discord <i class='fab fa-discord'></i></a>
                     <!-- <a href="https://github.com/LeaVerou/prism/" class="btn btn-success svg-icon">
                         <em class="mr-2" data-feather="github"></em>
                         Contribute
@@ -49,14 +61,15 @@
                             <div class="green"></div>
                         </div>
                         <pre class="language-javascript line-numbers"><code class="language-javascript">/* 
-PM Explanation: 
+
+## PM Explanation: ##
 
 This code is registering two actions, 
 one when the painting's pointer enters and another when it leaves. 
 The first action scales the painting to twice its size on hover, 
 while the second scales it back down to 1x1 on hover.
 
-Dev Explanation:
+## Dev Explanation: ##
 
 --Variables:--
 painting: the canvas
