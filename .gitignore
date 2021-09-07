@@ -1,1 +1,9 @@
 node_modules
+<<<<<<< HEAD
+=======
+.DS_Store
+assets/.DS_Store
+.DS_Store
+assets/.DS_Store
+.DS_Store
+>>>>>>> parent of e1b0407 (gignore)
